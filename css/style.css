@@ -90,6 +90,10 @@ body {
     height: 100px;
 }
 
+.rrss__icon {
+    height: 50px;
+    padding-right: 10px;
+}
 
 .footer {
     background-color: black;
