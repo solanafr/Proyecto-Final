@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-avion.png" type="image/x-icon">
+    <title>Blog de viajes</title>
+</head>
+
+<!--BODY-->
+<body>
+
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-img" href="index.html">
+                <img src="images/favicon-avion.png" alt="logo" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fw-bolder fs-6" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="pages/sobre-mi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="pages/destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="pages/nomade-digital.html">Nómade Digital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <header>
+        <h1 class="blog__title fw-bold"> Título del Blog </h1>
+    </header>
+
+    <!--MAIN-->
+    <main class="container">
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <p class="index__description lh-sm">Descripción del tipo de contenido que vas a encontrar aquí. Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Distinctio temporibus omnis placeat nobis sed
+                    cupiditate unde quidem, architecto facilis voluptates repellendus asperiores ipsam sunt numquam
+                    magni quia rerum tempora repellat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio temporibus omnis placeat nobis sed
+                    cupiditate unde quidem, architecto facilis voluptates repellendus asperiores ipsam sunt numquam
+                    magni quia rerum tempora repellat? </p>
+                <h2 class="index__subtitle fw-bolder"> Últimas entradas del blog</h2>
+            </div>
+        </div>
+       <!--CARDS--> 
+        <div class="row">
+            <div class="card border-white col-md-4 mt-5 pb-5">
+                <img src="images/miami-helicoptero.png" class="card-img-top img__scale" alt="helicoptero-miami">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Todo sobre viajar en helicóptero en Miami</h5>
+                    <p class="card-text fw-normal">Primeros renglones de la entrada del blog. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Harum ducimus aspernatur</p>
+                    <a href="pages/destinos.html" class="btn btn-warning">Leer más</a>
+                </div>
+            </div>
+            <div class="card border-white col-md-4 mt-5 pb-5">
+                <img src="images/tafi-del-valle.png" class="card-img-top img__scale" alt="paisaje-tafidelvalle">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Qué hacer en Tafí del Valle</h5>
+                    <p class="card-text fw-normal">Primeros renglones de la entrada del blog. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Harum ducimus aspernatur</p>
+                    <a href="pages/destinos.html" class="btn btn-warning">Leer más</a>
+                </div>
+            </div>
+            <div class="card border-white col-md-4 mt-5 pb-5">
+                <img src="images/avion.png" class="card-img-top img__scale" alt="foto-avion">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Cómo me convertí en nómade digital</h5>
+                    <p class="card-text fw-normal">Primeros renglones de la entrada del blog. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Harum ducimus aspernatur</p>
+                    <a href="pages/nomade-digital.html" class="btn btn-warning">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <!--SECTION: SUSCRIPCION NEWSLETTER-->
+        <div class="newsletter__section">
+            <div class="col-md-12 mt-5 bg-dark">
+                <h2 class="newsletter__title">SUSCRIBITE A MI NEWSLETTER </h2>
+                <p class="newsletter__text fs-5">Para recibir más información, avisos cada vez que subo un posteo, etc.</p>
+            </div>
+        </div>
+        <div class="col-md-12 mt-5 ">
+                <form action="">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-warning">Suscribirme</button>
+                </div>
+            </form>
+        </div>
+        
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <p class="footer__text"> Créditos de la página | 2022 </p>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
