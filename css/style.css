@@ -31,6 +31,18 @@ body {
     text-align: center;
 }
 
+/* TRANSICION BOTONES CARDS INDEX */
+
+.btn {
+    width: 100px;
+    transition: width 2s, background-color 1s;
+}
+
+.card__button:hover {
+    width: 120px;
+    background-color: orangered;
+}
+
 
 .newsletter__section {
     background-color: gray;
