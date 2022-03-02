@@ -117,3 +117,24 @@ body {
     text-align: center;
 }
 
+
+/* PARA MOBILE */
+
+
+/* AGREGARLE RANGO DE ENTRE 600PX Y EL PROXIMO QUE ES 768 PX */
+@media screen and (max-width: 600px) {
+    .blog__title {
+        text-align:left;
+        color: white;
+        padding-top: 100px;
+        font-size: 50px;
+        font-weight: 200;
+        height: 300px;
+        width: 100%;
+        background-image: url(../images/portada-avion-mobile.jpg);
+        background-repeat: no-repeat;
+        background-color: gray;
+        padding-left: 30px;
+    }
+
+}
