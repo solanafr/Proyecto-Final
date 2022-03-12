@@ -29,13 +29,11 @@ body {
   background-color: gray;
   padding-left: 60px; }
 
-/* TRANSICION BOTON SEARCHBAR */
 .search__btn {
   width: 100px;
   transition: width 2s; }
-
-.search__btn:hover {
-  width: 120px; }
+  .search__btn:hover {
+    width: 120px; }
 
 .index__subtitle {
   text-align: center;
@@ -44,25 +42,21 @@ body {
 .index__description {
   text-align: center; }
 
-/* TRANSICION BOTONES CARDS INDEX */
-.btn {
+.card__button {
   width: 100px;
   transition: width 1s, background-color 1s; }
-
-.card__button:hover {
-  width: 120px;
-  background-color: orangered; }
+  .card__button:hover {
+    width: 120px;
+    background-color: orangered; }
 
 .newsletter__section {
   background-color: gray; }
-
-.newsletter__title {
-  text-align: center;
-  color: white; }
-
-.newsletter__text {
-  text-align: center;
-  color: white; }
+  .newsletter__section .newsletter__title {
+    text-align: center;
+    color: white; }
+  .newsletter__section .newsletter__text {
+    text-align: center;
+    color: white; }
 
 .sobremi__title {
   text-align: right;
@@ -94,8 +88,6 @@ body {
   padding-left: 8px;
   padding-bottom: 15px; }
 
-/* PARA MOBILE */
-/* AGREGARLE RANGO DE ENTRE 600PX Y EL PROXIMO QUE ES 768 PX */
 @media screen and (max-width: 600px) {
   .blog__title {
     text-align: left;

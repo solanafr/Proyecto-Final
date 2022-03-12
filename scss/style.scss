@@ -16,16 +16,17 @@
     padding-left: 60px;
 }
 
-/* TRANSICION BOTON SEARCHBAR */
-
+// TRANSICION BOTON SEARCHBAR
 
 .search__btn {
     width: 100px;
     transition: width 2s;
+    &:hover {
+        width:120px;
+    }
 }
-&:hover {
-    width:120px;
-}
+
+
 
 .index__subtitle {
     text-align: center;
@@ -36,16 +37,17 @@
     text-align: center;
 }
 
-/* TRANSICION BOTONES CARDS INDEX */
+// TRANSICION BOTONES CARDS INDEX 
 
 .card__button {
     width: 100px;
     transition: width 1s, background-color 1s;
+    &:hover {
+        width: 120px;
+        background-color: orangered;
+    }
 }
-&:hover {
-    width: 120px;
-    background-color: orangered;
-}
+
 
 .newsletter__section {
     background-color: gray;
@@ -96,10 +98,8 @@
 }
 
 
-/* PARA MOBILE */
 
-
-/* RESPONSIVE MOBILE */
+// RESPONSIVE MOBILE 
 @media screen and (max-width: 600px) {
     .blog__title {
         text-align:left;
