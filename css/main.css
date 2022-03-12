@@ -59,17 +59,17 @@ body {
     color: white; }
 
 .sobremi__title {
-  text-align: right;
+  text-align: left;
   color: white;
   padding-top: 100px;
   font-size: 100px;
   font-weight: 200;
   height: 300px;
   width: 100%;
-  background-image: url(../images/portada-trabajo-computadora.png);
+  background-image: url(../images/portada-foto-chica-trabajando.png);
   background-repeat: no-repeat;
   background-color: gray;
-  padding-right: 60px; }
+  padding-left: 85px; }
 
 .contacto__title {
   text-align: center;
