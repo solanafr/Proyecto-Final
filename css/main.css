@@ -42,10 +42,10 @@ body {
 .index__description {
   text-align: center; }
 
-.card__button {
+.card__button, .button__contact {
   width: 100px;
   transition: width 1s, background-color 1s; }
-  .card__button:hover {
+  .card__button:hover, .button__contact:hover {
     width: 120px;
     background-color: orangered; }
 
@@ -78,6 +78,15 @@ body {
   text-align: center;
   padding-top: 40px;
   height: 100px; }
+
+:hover.social__link--instagram {
+  color: #FF0080; }
+
+:hover.social__link--youtube {
+  color: #FF0000; }
+
+:hover.social__link--twitter {
+  color: #87CEEB; }
 
 .rrss__icon {
   height: 80px;
