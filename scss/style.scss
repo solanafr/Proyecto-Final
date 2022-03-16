@@ -27,7 +27,6 @@
 }
 
 
-
 .index__subtitle {
     text-align: center;
     padding-top: 40px;
@@ -83,14 +82,21 @@
 .subtitle__nomade {
     text-align: center;
 }
+
+// MIXIN
+
+@mixin sizes($height, $padding-top, $text-align) {
+    height: $height;
+    padding-top: $padding-top;
+    text-align: $text-align;
+}
+
 .contacto__title {
-    text-align: center;
-    padding-top: 40px;
-    height: 100px;
+    @include sizes(100px, 40px, center);
 }
 
 
-// MAPA VER COMO HACER QUE FUNCIONE!!!
+// MAPA 
 
 $redes: (
     instagram: #FF0080,
@@ -103,6 +109,7 @@ $redes: (
         color: $color;
     }
 }
+
 
 .rrss__icon {
     height: 80px;
