@@ -49,9 +49,9 @@ body {
     width: 120px; }
 
 .index__subtitle {
-  text-align: left;
+  text-align: center;
   padding-top: 40px;
-  font-size: 50px; }
+  font-size: 35px; }
 
 .index__description {
   text-align: center; }
@@ -98,13 +98,19 @@ body {
   background-color: gray;
   padding-right: 60px; }
 
+.viajes__subtitle {
+  text-align: left;
+  padding-top: 40px;
+  font-size: 40px; }
+
 .subtitle__nomade {
   text-align: center; }
 
 .contacto__title {
   height: 100px;
   padding-top: 40px;
-  text-align: center; }
+  text-align: center;
+  font-size: 50px; }
 
 :hover.social__link--instagram {
   color: #FF0080; }
@@ -129,14 +135,28 @@ body {
 
 @media screen and (max-width: 600px) {
   .blog__title {
-    text-align: left;
-    color: white;
     padding-top: 100px;
     font-size: 50px;
-    font-weight: 200;
     height: 300px;
-    width: 100%;
-    background-image: url(../images/portada-avion-mobile.jpg);
-    background-repeat: no-repeat;
-    background-color: gray;
-    padding-left: 30px; } }
+    padding-left: 30px; }
+  .sobremi__title {
+    font-size: 50px;
+    font-weight: 200;
+    height: 200px;
+    padding-left: 60px; }
+  .viajes__title {
+    text-align: left;
+    color: white;
+    padding-top: 120px;
+    font-size: 50px;
+    height: 300px;
+    padding-left: 20px; }
+  .viajes__subtitle {
+    text-align: center; }
+  .nomade__title {
+    padding-top: 120px;
+    font-size: 50px;
+    height: 300px;
+    padding-right: 40px; }
+  .contacto__title {
+    font-size: 40px; } }
