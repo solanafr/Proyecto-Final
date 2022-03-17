@@ -28,8 +28,9 @@
 
 
 .index__subtitle {
-    text-align: center;
+    text-align: left;
     padding-top: 40px;
+    font-size: 50px;
 }
 
 .index__description {
@@ -78,6 +79,21 @@
     background-color: gray;
     padding-left: 85px;
 }
+
+.viajes__title {
+    text-align:right;
+    color: black;
+    padding-top: 100px;
+    font-size: 100px;
+    font-weight: 200;
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/foto-pasaporte-mapa.png);
+    background-repeat: no-repeat;
+    background-color: gray;
+    padding-right: 60px;
+}
+
 
 .subtitle__nomade {
     text-align: center;
