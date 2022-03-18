@@ -88,7 +88,7 @@ body {
 .viajes__title {
   text-align: right;
   color: black;
-  padding-top: 100px;
+  padding-top: 120px;
   font-size: 100px;
   font-weight: 200;
   height: 400px;
@@ -142,7 +142,7 @@ body {
   .sobremi__title {
     font-size: 50px;
     font-weight: 200;
-    height: 200px;
+    height: 300px;
     padding-left: 60px; }
   .viajes__title {
     text-align: left;
@@ -155,8 +155,8 @@ body {
     text-align: center; }
   .nomade__title {
     padding-top: 120px;
-    font-size: 50px;
+    font-size: 45px;
     height: 300px;
-    padding-right: 40px; }
+    padding-right: 30px; }
   .contacto__title {
     font-size: 40px; } }
